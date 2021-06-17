@@ -1,6 +1,6 @@
 # About Me!
 
-<p>**Education:**</p>
+<p><strong>Education: </strong></p>
 <p>Florida State University</p>
 <p>Major: Bachelor of Science in Computer Science</p>
 <p>Minor: Mathematics</p>
