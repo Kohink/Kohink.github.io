@@ -1,4 +1,4 @@
-<center>Hello World!</center>
+<p><center>Hello World!</center></p>
 
 ![Me](images/pfp3.jpg)
 
