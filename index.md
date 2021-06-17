@@ -1,7 +1,6 @@
-# Hello World!
+<center>Hello World!</center>
 
-![Me!](/images/pfp3.jpg)
-<img src="pfp3.jpg" alt="pfp3" width="200" height="200"/>
+<img src="/images/pfp3.jpg" alt="Me!" width="200" height="200"/>
 
 [About Me](about)
 
