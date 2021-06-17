@@ -1,10 +1,9 @@
 # About Me!
 
-Education:
-
-Florida State University
-Major: Bacherlor of Science in Computer Science
-Minor: Mathematics
-GPA: 3.211
+<p>**Education:**</p>
+<p>Florida State University</p>
+<p>Major: Bachelor of Science in Computer Science</p>
+<p>Minor: Mathematics</p>
+<p>GPA: 3.211</p>
 
 [Home](index)
