@@ -2,6 +2,6 @@
 
 ![Me](images/pfp3.jpg)
 
-[About Me](about)
+[More About Me](about)
 
 [Contact Me](contact)
