@@ -1,5 +1,7 @@
 # About Me!
 
-# This page will talk about me!
+Education:
+
+Florida State University
 
 [Home](index)
