@@ -2,4 +2,4 @@
 
 <h1>This page will talk about me!<h1/>
 
-[Back to Home](index)
+[Home](index)
