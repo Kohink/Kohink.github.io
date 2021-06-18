@@ -1,11 +1,6 @@
 ---
 layout: default
 ---
-<div id="header">
-    <nav>
-        <li class="fork"><center><a href="{{ site.github.repository_url }}">View On GitHub</a></center></li>
-    </nav>
-</div><!-- end header -->
 
 <!--<p><center>
 ![Hello World](images/hello.gif)
