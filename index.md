@@ -1,6 +1,6 @@
 <p><center>Hello World!</center></p>
 
-<embed src="Kohin-Khandwalla-Resume.pdf" width="800px" height="2100px" />
+<embed src="images/Kohin-Khandwalla-Resume.pdf" width="800px" height="1200px" />
 
 ![Me](images/pfp3.jpg)
 
