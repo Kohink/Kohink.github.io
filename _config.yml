@@ -26,7 +26,7 @@ url: "https://kohink.github.io/" # the base hostname & protocol for your site, e
 github_username:  Kohink
 
 # Build settings
-remote_theme: jekyll-theme-midnight
+theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
 
