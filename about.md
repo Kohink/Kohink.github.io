@@ -12,5 +12,6 @@
  <p><center>
     <embed src="images/Kohin-Khandwalla-Resume.pdf" width="600px" height="900px" />
 </center></p>
+<p>&nbsp;</p>
 
 [Home](index)
