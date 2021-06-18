@@ -20,11 +20,10 @@
 
 title: Kohin Khandwalla
 email: kohin1999@gmail.com
-description: My very own website! Take a loom around
+description: My very own website! Take a look around
 baseurl: "/kohink" # the subpath of your site, e.g. /blog
 url: "https://kohink.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  Kohink
 
 # Build settings
 theme: jekyll-theme-midnight
