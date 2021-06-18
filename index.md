@@ -18,6 +18,7 @@ layout: default
 <li><a href="#" class="cool-link">More About Me</a></li>
 </div>-->
 [More About Me](about)
+
 [Gallery](gallery)
 
 [Contact Me](contact)
