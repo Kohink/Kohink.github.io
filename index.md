@@ -1,3 +1,5 @@
+layout:default
+
 <p><center>Hello World!</center></p>
 
 <!--<embed src="images/Kohin-Khandwalla-Resume.pdf" width="700px" height="1000px" /> -->
