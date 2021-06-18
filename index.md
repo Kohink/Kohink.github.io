@@ -1,4 +1,6 @@
-layout:default
+---
+layout: default
+---
 
 <p><center>Hello World!</center></p>
 
