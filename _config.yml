@@ -29,6 +29,8 @@ github_username:  Kohink
 plugins:
   - jekyll-feed
 
+github: [metadata]
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
