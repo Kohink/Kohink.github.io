@@ -2,3 +2,35 @@
 ---
 
 @import "jekyll-theme-midnight";
+
+body { margin: 0; 
+    padding: auto;
+}
+
+.container{
+position: absolute;
+transform: translateX(-50%) translateY(-50%);
+}
+
+display: inline-block;
+}
+
+li a{
+text-decoration: none;
+font-weight: lighter;
+padding: 0 20px;
+}
+
+.cool-link::after{
+content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ffff;
+  transition: width .3s;
+}
+
+.cool-link:hover::after{
+width: 100%;
+transition: width .3s;
+}

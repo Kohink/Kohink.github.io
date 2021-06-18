@@ -13,6 +13,9 @@ layout: default
 
 ![Me](images/pfp3.jpg)
 
+<!--<div class= "container">
+<li><a href="#" class="cool-link">More About Me</a></li>
+</div>-->
 [More About Me](about)
 
 [Contact Me](contact)
