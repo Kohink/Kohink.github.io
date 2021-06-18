@@ -3,6 +3,14 @@
 
 @import "jekyll-theme-midnight";
 
+.parentDiv {  
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  width: 200pxpx;
+  height: 200px;
+} 
+
 /*body { margin: 0; 
     padding: auto;
 }
