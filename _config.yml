@@ -20,8 +20,7 @@
 
 title: Kohin Khandwalla
 email: kohin1999@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-My very own website! Take a loom around
+description: My very own website! Take a loom around
 baseurl: "/kohink" # the subpath of your site, e.g. /blog
 url: "https://kohink.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
