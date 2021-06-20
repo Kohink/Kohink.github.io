@@ -1,5 +1,6 @@
 # About Me!
 
+<p>&nbsp;</p>
 <p><strong>Education: </strong></p>
 <p>Florida State University</p>
 <p>Major: Bachelor of Science in Computer Science</p>
@@ -9,6 +10,9 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <h1 style="text-align: center;"><em>Resume</em></h1>
+
+[Resume Link for Mobile Users](images/Kohin-Khandwalla-Resume.pdf)
+
  <p><center>
     <embed src="images/Kohin-Khandwalla-Resume.pdf" width="600px" height="900px" />
 </center></p>

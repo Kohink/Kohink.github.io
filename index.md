@@ -5,6 +5,14 @@ layout: default
     <p><center><img src="images/hello.gif"></center></p>
 </div> 
 
+<!-- The sidebar
+<div class="sidebar">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">About</a>
+  <a href="#contact">Gallery</a>
+  <a href="#about">Contact</a>
+</div>-->
+
 ![Me](images/pfp3.jpg)
 
 <p style="text-align: center;">&nbsp;</p>
