@@ -19,7 +19,7 @@
 
 [Florida State University](https://www.fsu.edu/)
 
-[Unofficial Transcript Download](images/Kohin-Khandwalla-Resume.pdf)
+[Unofficial Transcript Download](images/TSRPT.pdf)
 <p class="pv-entity__dates t-14 t-black--light t-normal"><span class="visually-hidden">Dates Attended: 2</span><time>017</time>&nbsp;&ndash;&nbsp;<time>2021</time></p>
 <p>Major: Bachelor of Science in Computer Science</p>
 <p>Minor: Mathematics</p>
