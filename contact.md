@@ -1,24 +1,38 @@
+<link rel="shortcut icon" href="#">
 <div>
 <div style="text-align: center;"><strong>Email:</strong> kohin1999@gmail.com</div>
-<div style="text-align: center;"><strong>Phone Number:</strong> (954)-826-3461</div>
 </div>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
 <p style="text-align: center;">Email Submission Form Under Maintenance.</p>
 
-<form id="fs-frm" name="email" accept-charset="utf-8" action="email.php" method="post">
-  <fieldset id="fs-frm-inputs">
-    <label for="full-name">Full Name</label>
-    <input type="text" name="name" id="full-name" placeholder="First + Last" required="">
-    <label for="email-address">Email Address</label>
-    <p><input type="email" name="_replyto" id="email-address" placeholder="Email@domain.tld" required=""></p>
-    <label for="message">Message</label>
-    <textarea rows="5" name="message" id="message" placeholder="Type Here..." required=""></textarea>
-    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-  </fieldset>
-  <p>&nbsp;</p>
-  <input type="submit" value="Submit">
+<form id="fcf-form-id" class="fcf-form-class" method="post" action="email.php">
+        
+<div class="fcf-form-group">
+  <label for="Name" class="fcf-label">Name</label>
+    <div class="fcf-input-group">
+        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+      </div>
+</div>
+
+<div class="fcf-form-group">
+  <label for="Email" class="fcf-label">Email address</label>
+     <div class="fcf-input-group">
+       <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+    </div>
+</div>
+
+<div class="fcf-form-group">
+    <label for="Message" class="fcf-label">Message</label>
+        <div class="fcf-input-group">
+          <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+        </div>
+</div>
+
+<div class="fcf-form-group">
+  <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+</div>
 </form>
 
 <p>&nbsp;</p>
