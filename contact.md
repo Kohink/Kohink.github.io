@@ -7,7 +7,7 @@
 
 <p style="text-align: center;">Email Submission Form Under Maintenance.</p>
 
-<form id="fcf-form-id" class="fcf-form-class" method="post" action="email.php">
+<form id="fcf-form-id" class="fcf-form-class" method="POST" action="email.php">
         
 <div class="fcf-form-group">
   <label for="Name" class="fcf-label">Name</label>
@@ -24,7 +24,7 @@
 </div>
 
 <div class="fcf-form-group">
-    <label for="Message" class="fcf-label">Message</label>
+    <label for="Message" class="fcf-label">essage</label>
         <div class="fcf-input-group">
           <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
         </div>
