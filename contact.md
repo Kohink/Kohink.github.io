@@ -24,7 +24,7 @@
 </div>
 
 <div class="fcf-form-group">
-    <label for="Message" class="fcf-label">essage</label>
+    <label for="Message" class="fcf-label">Message</label>
         <div class="fcf-input-group">
           <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
         </div>
