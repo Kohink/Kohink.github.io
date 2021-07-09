@@ -13,7 +13,7 @@ layout: default
   <a href="#about">Contact</a>
 </div>-->
 
-![Me](images/pfp3.jpg)
+![Me](images/pfp.jpg)
 
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">Hello everyone! I am proud to say that I am now a Florida State University graduate. I have recently earned my Bachelor of Science in Computer Science along with a Minor in Mathematics.</p>

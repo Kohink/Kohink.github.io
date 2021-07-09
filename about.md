@@ -75,6 +75,7 @@
 <p>Major: Bachelor of Science in Computer Science</p>
 <p>Minor: Mathematics</p>
 <p>GPA: 3.211</p>
+<p>Dean's List - Fall 2017</p>
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>

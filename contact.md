@@ -7,7 +7,7 @@
 
 <p style="text-align: center;">Email Submission Form Under Maintenance.</p>
 
-<form id="fcf-form-id" class="fcf-form-class" method="POST" action="email">
+<form id="fcf-form-id" class="fcf-form-class" method="POST" action="email.php">
         
 <div class="fcf-form-group">
   <label for="Name" class="fcf-label">Name</label>
@@ -41,4 +41,5 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+
 [Home](index)
