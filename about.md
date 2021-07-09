@@ -1,7 +1,58 @@
-<h1 style="text-align: center;">About Me!</h1>
+<h1 style="text-align: center;"><u>About Me!</u></h1>
+<p>&nbsp;</p>
+<p>My family originally emigrated from Mombasa, Kenya. Both my parents were born and raised in Mombasa. My older sister by 5 years was also born there. My parents were able to move to the United States through a visa lottery. </p>
+<p>I was born in Miami, Florida in the year 1999. I was raised in Weston, Florida. I am the first generation from anyone in my family to have been born and raised in America. I have had an incredible childhood thanks to the opportunity that my parents have provided me.</p>
+<p>Throughout my life, I have been blessed enough to experience many different cultures and communicate with really amazing people!</p>
 
 <p>&nbsp;</p>
-<h3><strong>Education: </strong></h3>
+<h2><strong>Places I've Traveled!</strong> </h2>
+<p>&nbsp;</p>
+
+<h3>International Destinations</h3>
+
+  * Mombasa, Kenya 
+  * Nairobi, Kenya
+  * Jordan
+  * Morocco
+  * Egypt
+  * Dominican Republic
+  * Turks and Caicos Islands
+  * Belize
+  * Mexico
+  * Paris, France
+  * Vienna, Austria
+  * Toronto, Canada
+  * London, England
+
+<h3>National Destinations</h3>
+
+  * Florida
+  * New York
+  * New Jersey
+  * Gatlinburg, Tennessee
+  * Alaska
+  * Seattle, Washington
+  * Loveland, Ohio
+
+<h3>Bucket-List Destinations</h3>
+
+  * Tokyo, Japan
+  * Hong Kong, China
+  * Sydney, Australia
+  * Bangkok, Thailand
+  * Vietnam
+  * Brazil
+  * Amsterdam, Netherlands
+  * Germany
+  * Switzerland
+  * Spain
+  * California
+  * Colorado
+  * Texas
+
+<p>&nbsp;</p>
+<h2><strong>Education: </strong></h2>
+<p>&nbsp;</p>
 
 <p><span style="text-decoration: underline;">High School:</span></p>
 
