@@ -7,7 +7,7 @@
 
 <p style="text-align: center;">Email Submission Form Under Maintenance.</p>
 
-<form id="fcf-form-id" class="fcf-form-class" method="POST" action="email.php">
+<form id="fcf-form-id" class="fcf-form-class" method="POST" action="email">
         
 <div class="fcf-form-group">
   <label for="Name" class="fcf-label">Name</label>
