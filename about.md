@@ -80,7 +80,7 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<h1 style="text-align: center;"><em>Resume</em></h1>
+<h2><strong>Resume</strong></h2>
 
 [Resume Download](images/Resume.pdf)
 
