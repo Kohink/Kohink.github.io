@@ -82,11 +82,8 @@
 <p>&nbsp;</p>
 <h1 style="text-align: center;"><em>Resume</em></h1>
 
-[Resume Link for Mobile Users](images/Resume.pdf)
+[Resume Download](images/Resume.pdf)
 
- <p><center>
-    <embed src="images/Resume.pdf" width="600px" height="900px" />
-</center></p>
 <p>&nbsp;</p>
 
 [Home](index)
