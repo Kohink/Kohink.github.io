@@ -1,4 +1,4 @@
-<h1 style="text-align: center;"><u>About Me!</u></h1>
+<h1 style="text-align: center;"><span><u>About Me</u></span></h1>
 <p>&nbsp;</p>
 <p style="text-align: center;">My family originally emigrated from Mombasa, Kenya. Both my parents were born and raised in Mombasa. My older sister by 5 years was also born there. My parents were able to move to the United States through a visa lottery. </p>
 <p style="text-align: center;">I was born in Miami, Florida in the year 1999. I was raised in Weston, Florida. I am the first generation from anyone in my family to have been born and raised in America. I have had an incredible childhood thanks to the opportunity that my parents have provided me.</p>
