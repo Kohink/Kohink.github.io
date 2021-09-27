@@ -86,7 +86,7 @@ input:focus {
     background-color: #ffcc00;
     border-radius: 5px;
     display: inline-block;
-    color: white;
+    color: rgb(26, 25, 25);
     font-size: 0.7rem;
     padding: 0.25rem 0.5rem;
     margin-right: 0.5rem;
