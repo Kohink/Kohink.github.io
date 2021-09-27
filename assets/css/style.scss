@@ -5,12 +5,25 @@
 
 .parentDiv 
 {  
-  display: flex; 
-  justify-content: center; 
-  align-items: center;
-	width: 100%;
-	height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
+
+.links
+{
+  align-items: center;
+}
+
+.pfp
+{  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
 
 .sidebar {
   margin: 0;
