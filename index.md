@@ -29,6 +29,6 @@ layout: default
 
 [More About Me](about)
 
-[Contact Me](contact)
-
 [Side Projects](side)
+
+[Contact Me](contact)
