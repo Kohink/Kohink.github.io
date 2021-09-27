@@ -56,7 +56,7 @@ input:focus {
 }
 
 .user-info {
-    color: #eee;
+    color: rgb(15, 15, 15);
     margin-left: 2rem;
 }
 
