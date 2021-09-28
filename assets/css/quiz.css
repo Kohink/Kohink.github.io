@@ -6,7 +6,7 @@
 
 body {
     background-color: #b8c6db;
-    background-image: linear-gradient(315deg, #ffcc00 0%, #f5f7fa 100%);
+    background-image: linear-gradient(315deg, #ff961e 0%, #3d40f5 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,7 +61,7 @@ button {
 }
 
 button:hover {
-    background-color: #d8b011;
+    background-color: #06c5ff;
 }
 
 button:focus {

@@ -27,8 +27,8 @@ const quizData = [
         question: "Where did I graduate from?",
         a: "Florida State University",
         b: "Harvard",
-        c: "Massachusetts Institute of Technology",
-        d: "Yale",
+        c: "University of Florida",
+        d: "Hogwarts",
         correct: "a",
     },
     {
@@ -92,6 +92,7 @@ const submitBtn = document.getElementById("submit");
 
 let currentQuiz = 0;
 let score = 0;
+shuffleArray(quizData);
 
 loadQuiz();
 
@@ -123,6 +124,17 @@ function deselectAnswers() {
     answerEls.forEach((answerEl) => {
         answerEl.checked = false;
     });
+}
+
+function shuffleArray(array) 
+{
+    for (var i = array.length - 1; i > 0; i--) 
+    {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
 }
 
 submitBtn.addEventListener("click", () => {
