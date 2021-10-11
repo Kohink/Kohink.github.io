@@ -9,6 +9,8 @@
 
 <a href="/timer.html">Birthday Countdown</a>
 
+<a href="/games.html">Flappy Bird</a>
+
 <p>&nbsp;</p>
 
 [Home](index)
