@@ -1,7 +1,7 @@
 // Create our 'main' state that will contain the game
 var mainState = {
     preload: function () {
-        game.load.image('bird', 'assets/images/bird.png');
+        game.load.image('bird', 'assets/images/kirby2.png');
         game.load.image('pipe', 'assets/images/pipe.png');
         game.load.audio('jump', 'assets/jump.wav');
     },
@@ -26,6 +26,8 @@ var mainState = {
         // Call the 'jump' function when the spacekey is hit
         var spaceKey = game.input.keyboard.addKey(
             Phaser.Keyboard.SPACEBAR);
+
+        var clickKey = game.input.Keyboard.addKey(Phaser.));
         spaceKey.onDown.add(this.jump, this);
 
         this.pipes = game.add.group();
@@ -130,7 +132,7 @@ var mainState = {
 };
 
 // Initialize Phaser, and create a 400px by 490px game
-var game = new Phaser.Game(400, 490);
+var game = new Phaser.Game(450, 490);
 
 // Add the 'mainState' and call it 'main'
 game.state.add('main', mainState);
