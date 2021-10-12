@@ -9,7 +9,7 @@
 
 <a href="/timer.html">Birthday Countdown</a>
 
-<a href="/games.html">Flappy Bird</a>
+<a href="/games.html">Flappy Kirby</a>
 
 <p>&nbsp;</p>
 

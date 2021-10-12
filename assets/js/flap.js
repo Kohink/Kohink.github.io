@@ -26,9 +26,10 @@ var mainState = {
         // Call the 'jump' function when the spacekey is hit
         var spaceKey = game.input.keyboard.addKey(
             Phaser.Keyboard.SPACEBAR);
-
-        var clickKey = game.input.Keyboard.addKey(Phaser.));
         spaceKey.onDown.add(this.jump, this);
+
+        //var pointer = this.input.activePointer;
+        //    pointer.isDown.add(this.jump, this);
 
         this.pipes = game.add.group();
         this.timer = game.time.events.loop(1500, this.addRowOfPipes, this);
