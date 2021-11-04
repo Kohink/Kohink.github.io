@@ -11,6 +11,8 @@
 
 <a href="/games.html">Flappy Kirby</a>
 
+<a href="/index-boot.html">Bootstrap Remodel of Homepage</a>
+
 <p>&nbsp;</p>
 
 [Home](index)

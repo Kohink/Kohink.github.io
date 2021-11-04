@@ -78,7 +78,7 @@
 <p>&nbsp;</p>
 <h2><strong>Resume</strong></h2>
 
-[Resume Download](images/Resume.pdf)
+[Resume Download](images/Resume2.pdf)
 
 <p>&nbsp;</p>
 
