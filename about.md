@@ -23,6 +23,7 @@
   * Vienna, Austria
   * Toronto, Canada
   * London, England
+  * Colorado
 
 <h3>National Destinations</h3>
 
@@ -47,7 +48,6 @@
   * Switzerland
   * Spain
   * California
-  * Colorado
 
 <p>&nbsp;</p>
 <h2><strong>Education: </strong></h2>
@@ -78,7 +78,7 @@
 <p>&nbsp;</p>
 <h2><strong>Resume</strong></h2>
 
-[Resume Download](images/Resume2.pdf)
+[Resume Download](images/resume3.pdf)
 
 <p>&nbsp;</p>
 
