@@ -13,6 +13,8 @@
 
 <a href="/index-boot.html">Bootstrap Remodel of Homepage</a>
 
+<a href="https://opensea.io/collection/bliss-boys">My NFT Collection !</a>
+
 <p>&nbsp;</p>
 
 [Home](index)
