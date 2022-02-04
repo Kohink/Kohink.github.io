@@ -23,7 +23,6 @@
   * Vienna, Austria
   * Toronto, Canada
   * London, England
-  * Colorado
 
 <h3>National Destinations</h3>
 
@@ -34,6 +33,7 @@
   * Alaska
   * Seattle, Washington
   * Loveland, Ohio
+  * Colorado
 
 <h3>Bucket-List Destinations</h3>
 
