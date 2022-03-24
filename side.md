@@ -9,9 +9,7 @@
 
 <a href="/timer.html">Birthday Countdown</a>
 
-<a href="/games.html">Flappy Kirby (Desktop Only)</a>
-
-<a href="https://opensea.io/collection/bliss-boys">My NFT Collection !</a>
+<!-- <a href="/games.html">Flappy Kirby (Desktop Only)</a> -->
 
 <p>&nbsp;</p>
 

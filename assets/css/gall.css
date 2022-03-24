@@ -54,3 +54,9 @@ h1
   height: 100%;
   object-fit: cover;
 }
+
+#zoomtext
+{
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+}
