@@ -44,7 +44,7 @@
   * Thailand
   * Vietnam
   * Brazil
-  * Amsterdam, Netherlands
+  * Netherlands
   * Germany
   * Switzerland
   * Spain
