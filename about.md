@@ -1,8 +1,7 @@
 <h1 style="text-align: center;"><span><u>About Me</u></span></h1>
 <p>&nbsp;</p>
-<p style="text-align: center;">My family originally emigrated from Mombasa, Kenya. Both my parents were born and raised in Mombasa. My older sister by 5 years was also born there. My parents were able to move to the United States through a visa lottery. </p>
-<p style="text-align: center;">I was born in Miami, Florida in the year 1999. I was raised in Weston, Florida. I am the first generation from anyone in my family to have been born and raised in America. I have had an incredible childhood thanks to the opportunity that my parents have provided me.</p>
-<p style="text-align: center;">Throughout my life, I have been blessed enough to experience many different cultures and communicate with really amazing people!</p>
+<p style="text-align: center;">My family originally emigrated from Mombasa, Kenya. Both of my parents were born and raised in Mombasa. My older sister Sayona was also born there. We're five years apart. My parents were able to move from Kenya to the United States through the Diversity Visa Lottery program. This program gave my mother her green card. After that, my father spent many years to receive his own. I'm the first generation from anyone in my family to have been born and raised in America. </p>
+<p style="text-align: center;">I was born in Fort Lauderdale, Florida in the year 1999. I was raised in Weston, Florida. I've had an incredible childhood thanks to the opportunity that my parents have provided me. Throughout my life, I have been blessed to experience many different cultures and communicate with really amazing people!</p>
 
 <p>&nbsp;</p>
 <h2><strong>Places I've Traveled!</strong> </h2>
@@ -10,8 +9,7 @@
 
 <h3>International Destinations</h3>
 
-  * Mombasa, Kenya 
-  * Nairobi, Kenya
+  * Kenya
   * Jordan
   * Morocco
   * Egypt
@@ -19,28 +17,31 @@
   * Turks and Caicos Islands
   * Belize
   * Mexico
+  * England
   * Paris, France
   * Vienna, Austria
   * Toronto, Canada
-  * London, England
+  * St.Thomas, St.Croix, St.Maarten, St.Lucia, St.Kitts
+  * Barbados
 
 <h3>National Destinations</h3>
 
   * Florida
   * New York
   * New Jersey
-  * Gatlinburg, Tennessee
+  * Tennessee
   * Alaska
-  * Seattle, Washington
-  * Loveland, Ohio
+  * Washington
+  * Ohio
   * Colorado
+  * Puerto Rico
 
 <h3>Bucket-List Destinations</h3>
 
-  * Tokyo, Japan
-  * Hong Kong, China
-  * Sydney, Australia
-  * Bangkok, Thailand
+  * Japan
+  * China
+  * Australia
+  * Thailand
   * Vietnam
   * Brazil
   * Amsterdam, Netherlands
@@ -48,6 +49,9 @@
   * Switzerland
   * Spain
   * California
+  * Jamaica
+  * Costa Rica
+  * South Africa
 
 <p>&nbsp;</p>
 <h2><strong>Education: </strong></h2>
