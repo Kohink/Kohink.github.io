@@ -1,0 +1,42 @@
+body{  
+    background-color: lightblue;  
+    }   
+
+
+#imgClickAndChange{
+        display: block;  
+        margin-left: auto;  
+        margin-right: auto;  
+        border: 8px ridge blue;  
+        padding: 5px; 
+      }
+    p{
+      text-align:center;
+      color:yellow;
+      }
+    .bounce{
+      animation:bounce 4s linear 100;
+      }
+     @keyframes bounce{
+        0%{
+          transform:translate(0px,0px);
+         
+          }
+        25%{
+           transform:translate(100px,100px);
+          
+          }
+        50%{
+           transform:translate(200px,0px);  
+          background:green;
+          }
+         75%{
+           transform:translate(100px,-100px);
+            
+    
+           }
+       100%{
+          transform:translate(0px,0px);
+          
+          }   
+       }

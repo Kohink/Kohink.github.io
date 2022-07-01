@@ -11,6 +11,8 @@
 
 <!-- <a href="/games.html">Flappy Kirby (Desktop Only)</a> -->
 
+<!-- <a href="/pages/theo.html">Theo Dedication Page</a> -->
+
 <p>&nbsp;</p>
 
 [Home](index)
