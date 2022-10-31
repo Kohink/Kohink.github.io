@@ -4,39 +4,61 @@ body{
 
 
 #imgClickAndChange{
-        display: block;  
-        margin-left: auto;  
-        margin-right: auto;  
+        display: block;   
         border: 8px ridge blue;  
-        padding: 5px; 
       }
-    p{
-      text-align:center;
-      color:yellow;
-      }
-    .bounce{
-      animation:bounce 4s linear 100;
-      }
-     @keyframes bounce{
-        0%{
-          transform:translate(0px,0px);
-         
-          }
-        25%{
-           transform:translate(100px,100px);
-          
-          }
-        50%{
-           transform:translate(200px,0px);  
-          background:green;
-          }
-         75%{
-           transform:translate(100px,-100px);
-            
-    
-           }
-       100%{
-          transform:translate(0px,0px);
-          
-          }   
-       }
+
+
+     /* animation */
+     @keyframes anime-dvd {
+        15% {
+           top: 83%;
+           left: 45%;
+           background-color: var(--color-2);
+        }
+     
+        30% {
+          top: 40%;
+           left: 90%;
+           background-color: var(--color-3);
+        }
+     
+        45% {
+           top: 0%;
+           left: 50%;
+           background-color: var(--color-4);
+        }
+     
+        60% {
+           top: 60%;
+           left: 0%;
+           background-color: var(--color-5);
+        }
+     
+        75% {
+           top: 82%;
+           left: 30%;
+           background-color: var(--color-6);
+        }
+     
+        90% {
+           top: 40%;
+           left: 82%;
+           background-color: var(--color-7);
+     
+        }
+     
+        100% {
+           top: 0;
+           left: 0;
+        }
+     }
+        
+     img {
+        position: relative; 
+        border-radius: 50%;
+        top: 0;
+        left: 0;
+        animation: anime-dvd 20s forwards infinite alternate-reverse linear;
+     }
+     

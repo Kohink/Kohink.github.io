@@ -9,9 +9,9 @@
 
 <a href="/timer.html">Birthday Countdown</a>
 
-<!-- <a href="/games.html">Flappy Kirby (Desktop Only)</a> -->
+<a href="/games.html">Flappy Kirby (Desktop Only)</a>
 
-<!-- <a href="/pages/theo.html">Theo Dedication Page</a> -->
+<a href="/pages/theo.html">Theo Dedication Page</a>
 
 <p>&nbsp;</p>
 
