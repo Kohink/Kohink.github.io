@@ -15,7 +15,7 @@ layout: default
 
 <!--![Me](images/pfp.jpg)-->
 <div class="pfp"> 
-    <p><center><img src="assets/images/fair.jpg"></center></p>
+    <p><center><img src="assets/images/pup.jpg"></center></p>
 </div> 
 
 <p style="text-align: center;">&nbsp;</p>
