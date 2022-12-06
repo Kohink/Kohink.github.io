@@ -1,64 +1,17 @@
 body{  
-    background-color: lightblue;  
+    background-color: white;  
     }   
 
 
-#imgClickAndChange{
-        display: block;   
-        border: 8px ridge blue;  
+#img-theo{
+
+        border: 6px ridge black;  
+        position: absolute;
       }
 
 
      /* animation */
-     @keyframes anime-dvd {
-        15% {
-           top: 83%;
-           left: 45%;
-           background-color: var(--color-2);
-        }
-     
-        30% {
-          top: 40%;
-           left: 90%;
-           background-color: var(--color-3);
-        }
-     
-        45% {
-           top: 0%;
-           left: 50%;
-           background-color: var(--color-4);
-        }
-     
-        60% {
-           top: 60%;
-           left: 0%;
-           background-color: var(--color-5);
-        }
-     
-        75% {
-           top: 82%;
-           left: 30%;
-           background-color: var(--color-6);
-        }
-     
-        90% {
-           top: 40%;
-           left: 82%;
-           background-color: var(--color-7);
-     
-        }
-     
-        100% {
-           top: 0;
-           left: 0;
-        }
-     }
-        
      img {
-        position: relative; 
         border-radius: 50%;
-        top: 0;
-        left: 0;
-        animation: anime-dvd 20s forwards infinite alternate-reverse linear;
      }
      

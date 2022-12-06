@@ -11,7 +11,7 @@
 
 <a href="/games.html">Flappy Kirby (Desktop Only)</a>
 
-<a href="/pages/theo.html">Theo Dedication Page</a>
+<a href="/pages/theo.html">Theo Dedication Page (Pre-Alpha Stage)</a>
 
 <p>&nbsp;</p>
 
