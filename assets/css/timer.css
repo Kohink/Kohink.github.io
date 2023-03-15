@@ -2,6 +2,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -12,22 +14,25 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
     min-height: 100vh;
     font-family: "Poppins", sans-serif;
-    margin: 0;
 }
 
 h1 {
     font-weight: normal;
     font-size: 4rem;
-    margin-top: 5rem;
+    margin: 2rem 0;
+    text-align: center;
+    color: #000000; /* Added color for better visibility */
 }
 
 .countdown-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background: rgba(0, 0, 0, 0.6); /* Added a background for better visibility */
+    padding: 1rem 2rem; /* Added padding */
+    border-radius: 10px; /* Added border radius */
 }
 
 .big-text {
@@ -35,6 +40,7 @@ h1 {
     font-size: 6rem;
     line-height: 1;
     margin: 1rem 2rem;
+    color: #ffffff; /* Added color for better visibility */
 }
 
 .countdown-el {
@@ -43,4 +49,5 @@ h1 {
 
 .countdown-el span {
     font-size: 1.3rem;
+    color: #ffffff; /* Added color for better visibility */
 }

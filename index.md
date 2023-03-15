@@ -20,9 +20,10 @@ layout: default
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;">&nbsp;</p>
 
-
 [More About Me](about)
 
 [Side Projects](side)
 
 [Contact Me](contact)
+
+<a href="pages\spotify.html">Very Important Link</a>

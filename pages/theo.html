@@ -1,40 +1,17 @@
-<link rel="stylesheet" href="../assets/css/theo.css" />
-<script src="../assets/js/theo.js" defer></script>
-
+<!DOCTYPE html>
 <html lang="en">
-<head></head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theo's Page</title>
+    <link rel="stylesheet" href="../assets/css/theo.css">
+</head>
 <body>
-    <img src="../assets/images/theo2.jpg" width="450" height="450" id="img-theo" onclick="changeImage()"/>
-    <p id="message"></p>
-
-    <script>
-      // Define the text to animate
-      const text = " I love theo";
-
-      // Define the current index in the text
-      let index = 0;
-
-      // Get a reference to the message element
-      const message = document.getElementById("message");
-
-      // Define the update function, which will be called on each iteration of the animation loop
-      function update2() {
-        // Update the message by appending the next character in the text
-        message.innerHTML += text[index];
-
-        // Increment the index
-        index++;
-
-        // If the index is equal to the length of the text,
-        // reset the index to 0
-        if (index === text.length) {
-          index = 0;
-        }
-      }
-
-      // Set the update function to be called every 30 milliseconds
-      setInterval(update2, 30);
-    </script>
-    
+    <div id="theo-container">
+        <div id="theo-sphere" class="sphere">
+            <img src="../assets/images/theo2.jpg" alt="Theo" id="theo-img">
+        </div>
+    </div>
+    <script src="../assets/js/theo.js"></script>
 </body>
 </html>

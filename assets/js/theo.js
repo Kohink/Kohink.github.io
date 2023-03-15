@@ -1,79 +1,64 @@
-// Declare Global Variables
+const theoSphere = document.getElementById("theo-sphere");
+const theoContainer = document.getElementById("theo-container");
+const theoImages = ["../assets/images/theo.jpg", "../assets/images/theo2.jpg", "../assets/images/theo3.jpg"];
+let clickCount = 0;
 
-const images = [
-  "../assets/images/theo.jpg",
-  "../assets/images/theo2.jpg",
-  "../assets/images/theo3.jpg",
-  "../assets/images/theo4.jpg",
-  "../assets/images/theo5.jpg",
-  "../assets/images/theo6.jpg",
-  "../assets/images/theo7.jpg",
-  "../assets/images/theo8.jpg",
-
-];
-
-// Get a reference to the image element
-const image = document.getElementById("img-theo");
-
-let x = 100;
-let y = 100;
-let vx = 5;
-let vy = 5;
-
-// Set the gravity and friction constants
-const gravity = .2;
-
-// Define the change image function
 function changeImage() {
-  // Generate a random number between 0 and the number of images
-  const randomIndex = Math.floor(Math.random() * images.length);
-
-  // Get the image at the random index
-  const randomImage = images[randomIndex];
-
-  // Update the source of the image to the random image
-  image.src = randomImage;
-  var r = Math.floor(Math.random() * 256);
-  var g = Math.floor(Math.random() * 256);
-  var b = Math.floor(Math.random() * 256);
-  var bgColor = "rgb(" + r + "," + g + "," + b + ")";
-  console.log(bgColor);
-  document.body.style.background = bgColor;
+    const imgIndex = Math.floor(Math.random() * theoImages.length);
+    document.getElementById("theo-img").src = theoImages[imgIndex];
 }
 
-
-/************************************************
- * 
- * Functions
- * 
- * **********************************************/
-
-
-// Define the update function, which will be called on each iteration of the animation loop
-function update() {
-  // Update the velocity based on gravity and friction
-  vy += gravity;
-
-  // Update the position based on the velocity
-  x += vx;
-  y += vy;
-
-  // Check if the image has hit any of the edges of the screen
-  // If so, reverse the direction of the velocity
-  if (x + image.width > window.innerWidth || x < 0) {
-    vx = -vx;
-  }
-  if (y + image.height > window.innerHeight || y < 0) {
-    vy = -vy;
-  }
-
-  // Set the new position for the image
-  image.style.left = x + "px";
-  image.style.top = y + "px";
-
-  // Call the update function again on the next frame
-  requestAnimationFrame(update);
+function changeBackground() {
+    const randomColor = `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`;
+    document.body.style.backgroundColor = randomColor;
 }
 
-// Start the animation loop
-update();
+function addLoveTheo() {
+    const loveTheo = document.createElement("span");
+    loveTheo.classList.add("love-theo");
+    loveTheo.innerText = "I love you, Theo";
+    loveTheo.style.left = `${Math.random() * 90}vw`;
+    loveTheo.style.top = `${Math.random() * 90}vh`;
+    loveTheo.style.color = `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`;
+    theoContainer.appendChild(loveTheo);
+}
+
+function specialEvent() {
+    alert("You've clicked Theo's sphere 10 times! Theo is so happy!");
+}
+
+function bounce() {
+    let x = 0;
+    let y = 0;
+    let xSpeed = 2;
+    let ySpeed = 2;
+    const updatePosition = () => {
+        x += xSpeed;
+        y += ySpeed;
+
+        if (x < 0 || x + theoSphere.clientWidth > window.innerWidth) {
+            xSpeed = -xSpeed;
+        }
+        if (y < 0 || y + theoSphere.clientHeight > window.innerHeight) {
+            ySpeed = -ySpeed;
+        }
+
+        theoSphere.style.transform = `translate(${x}px, ${y}px)`;
+        requestAnimationFrame(updatePosition);
+    };
+
+    updatePosition();
+}
+
+theoSphere.addEventListener("click", () => {
+    clickCount++;
+    changeImage();
+    changeBackground();
+    addLoveTheo();
+
+    if (clickCount === 10) {
+        specialEvent();
+    }
+});
+
+bounce();
