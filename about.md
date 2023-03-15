@@ -4,54 +4,6 @@
 <p style="text-align: center;">I was born in Fort Lauderdale, Florida in the year 1999. I was raised in Weston, Florida. I've had an incredible childhood thanks to the opportunity that my parents have provided me. Throughout my life, I have been blessed to experience many different cultures and communicate with really amazing people!</p>
 
 <p>&nbsp;</p>
-<h2><strong>Places I've Traveled!</strong> </h2>
-<p>&nbsp;</p>
-
-<h3>International Destinations</h3>
-
-  * Kenya
-  * Jordan
-  * Morocco
-  * Egypt
-  * Dominican Republic
-  * Turks and Caicos Islands
-  * Belize
-  * Mexico
-  * England
-  * Paris, France
-  * Vienna, Austria
-  * Toronto, Canada
-  * St.Thomas, St.Croix, St.Maarten, St.Lucia, St.Kitts
-  * Barbados
-
-<h3>National Destinations</h3>
-
-  * Florida
-  * New York
-  * New Jersey
-  * Tennessee
-  * Alaska
-  * Washington
-  * Ohio
-  * Colorado
-  * Puerto Rico
-
-<h3>Bucket-List Destinations</h3>
-
-  * Japan
-  * China
-  * Australia
-  * Thailand
-  * Vietnam
-  * Brazil
-  * Netherlands
-  * Germany
-  * Switzerland
-  * Spain
-  * California
-  * Jamaica
-  * Costa Rica
-  * South Africa
 
 <p>&nbsp;</p>
 <h2><strong>Education: </strong></h2>

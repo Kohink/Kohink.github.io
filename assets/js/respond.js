@@ -787,3 +787,7 @@ try {
 catch (e) {
 }
 
+var slider = document.getElementById("slider");
+slider.oninput = function() {
+  document.body.style.backgroundColor = "rgb(" + slider.value + ", 0, 0)";
+}

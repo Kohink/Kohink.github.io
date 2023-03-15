@@ -2,10 +2,11 @@
 <html>
 
 <head>
-<title>CSS 3D Rotating Image Gallery</title>
-<link rel="stylesheet" href="assets/css/gall.css">
-<!-- <script src="assets/js/gal.js" defer></script> -->
+    <title>CSS 3D Rotating Image Gallery</title>
+    <link rel="stylesheet" href="assets/css/gall.css">
+    <!-- <script src="assets/js/gal.js" defer></script> -->
 </head>
+
 <body>
     <div class="box" id="zoomtext">
         <span style="--i:1;"><img src="images/gall/me.jpg"></span>
@@ -17,39 +18,65 @@
         <span style="--i:7;"><img src="images/gall/pup.jpg"></span>
         <span style="--i:8;"><img src="images/gall/meart.jpg"></span>
     </div>
+
+
+    <input type="range" min="0" max="255" value="255" id="color-slider">
+    <a href="index" id="home-link">Home</a>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const colorSlider = document.getElementById("color-slider");
+
+            colorSlider.addEventListener("input", function () {
+                const value = this.value;
+                const color = `rgb(${value}, ${value * 0.7}, ${value * 0.4})`;
+                document.body.style.backgroundColor = color;
+            });
+        });
+    </script>
+
+    <div id="control-buttons">
+        <button id="reverse-btn">Reverse</button>
+        <button id="speed-up-btn">Speed Up</button>
+        <button id="slow-down-btn">Slow Down</button>
+        <button id="reset-btn">Reset</button>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const box = document.querySelector(".box");
+            const reverseBtn = document.getElementById("reverse-btn");
+            const speedUpBtn = document.getElementById("speed-up-btn");
+            const slowDownBtn = document.getElementById("slow-down-btn");
+            const resetBtn = document.getElementById("reset-btn");
+            let speed = 40;
+            let direction = 1;
+
+            function updateAnimation() {
+                box.style.animation = `animate ${speed}s linear infinite ${direction === -1 ? 'reverse' : ''}`;
+            }
+
+            reverseBtn.addEventListener("click", function() {
+                direction *= -1;
+                updateAnimation();
+            });
+
+            speedUpBtn.addEventListener("click", function() {
+                speed *= 0.8;
+                updateAnimation();
+            });
+
+            slowDownBtn.addEventListener("click", function() {
+                speed *= 1.25;
+                updateAnimation();
+            });
+
+            resetBtn.addEventListener("click", function() {
+                speed = 40;
+                direction = 1;
+                updateAnimation();
+            });
+        });
+    </script>
+
 </body>
+
 </html>
-
-
-<div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <div>&nbsp;</div>
-    <!--<a href="index">Home</a>-->
-</div>
