@@ -333,3 +333,17 @@ label.fcf-label {
 input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
   width: 100%;
 }
+
+
+@keyframes moveGif {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.moving-gif {
+  animation: moveGif 10s linear infinite;
+}

@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<div class="parentDiv"> 
-    <p><center><img src="images/hello.gif"></center></p>
-</div> 
+<div class="parentDiv">
+  <p><center><img src="images/hello.gif" class="moving-gif"></center></p>
+</div>
 
 <div class="pfp"> 
     <p><center><img src="assets/images/pup.jpg"></center></p>

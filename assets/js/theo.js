@@ -1,8 +1,9 @@
 const theoSphere = document.getElementById("theo-sphere");
 const theoContainer = document.getElementById("theo-container");
-const theoImages = ["../assets/images/theo.jpg", "../assets/images/theo2.jpg", "../assets/images/theo3.jpg"];
+const theoImages = ["../assets/images/theo.jpg", "../assets/images/theo2.jpg", "../assets/images/theo3.jpg", "../assets/images/theo4.jpg", "../assets/images/theo5.jpg","../assets/images/theo6.jpg","../assets/images/theo7.jpg", "../assets/images/theo8.jpg",];
 let clickCount = 0;
 
+alert("Click Theo to change the background color");
 function changeImage() {
     const imgIndex = Math.floor(Math.random() * theoImages.length);
     document.getElementById("theo-img").src = theoImages[imgIndex];
@@ -24,7 +25,7 @@ function addLoveTheo() {
 }
 
 function specialEvent() {
-    alert("You've clicked Theo's sphere 10 times! Theo is so happy!");
+    alert("You've clicked Theo 10 times! Theo is so happy!");
 }
 
 function bounce() {
@@ -58,6 +59,7 @@ theoSphere.addEventListener("click", () => {
 
     if (clickCount === 10) {
         specialEvent();
+        clickCount = 0;
     }
 });
 
