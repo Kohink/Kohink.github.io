@@ -13,6 +13,8 @@
 
 <a href="/pages/theo.html">Theo Dedication Page</a>
 
+<a href="/pages/kmags.html">Check out Kmagsbliss</a>
+
 <p>&nbsp;</p>
 
 [Home](index)
